@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+img.logo{
+    width: 300px;
+    margin: 30px;
+}
+.mainpage{
+    height: 100px;
+    font-family: "Crimson Text";
+    position: absolute;
+    width: 100%;
+    margin-right: 0px;
+    top: 0%;
+    left: 0%;
+    float: right;
+}
+.container{
+    color: black;
+    text-align: center;
+    padding: 2px 10px;
+    margin: 20px;
+    float: right;
+    overflow: hidden;
+}
+.navigation{
+    float: right;
+    overflow: hidden;
+}
+.navigation a{
+    float: left;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.navbar a:hover, .dropdown:hover{
+    background-color: transparent;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+    margin-top: 40px;
+    z-index: 1;
+    float: left;
+    text-align: left;
+
+}
+.dropdown-content a{
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: right;
+}
+.dropdown div a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.dropdown-content a:hover{
+    background-color: transparent;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover div{
+    color:#b5996f;
+    visibility: visible;
+}
+.navigation a:hover{
+    color: #b5996f;
+}
+a:nth-child(1):hover{
+    transition: all 0.5s;
+}
+a:nth-child(2):hover{
+    transition: all 0.5s;
+}
+a:nth-child(3):hover{
+    transition: all 0.5s;
+}
+a:nth-child(4):hover{
+    transition: all 0.5s;
+}
+a:nth-child(5):hover{
+    transition: all 0.5s;
+}
+img.sosmed{
+    float: left;
+    width: 20px;
+    margin: -10px;
+    margin-top: 2px;
+    margin-left: -10px;
+    opacity: 0.5;
+    position: relative;
+}
+img.sosmed:hover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+div.mainpage:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1{
+    align-items: center;
+    margin: 50px 550px ;
+}
+h1 img{
+    width: 160px;
+    margin-top: 30px;
+}
+h2{
+    text-align: center;
+    color: rgba(95, 92, 92, 0.932);
+    font-family: "Crimson text";
+    font-size: 30px;
+    margin: 40px;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color:rgba(95, 92, 92, 0.616);
+    margin: 30px 35px;
+}
+p.films{
+    text-align: center;
+    font-style: italic;
+}
+p.films a{
+    color: #b5996f;
+}
+input[type=submit] {
+    font-family: "Crimson Text";
+    font-size: 16px;
+    letter-spacing: 5px;
+    background: #fafafa;
+    color: #b5996f;
+    padding: 20px 40px;
+    margin: 25px 550px;
+    border: 2px solid #b5996f;
+    border-radius: 6px;
+    line-height: normal;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+}
+input[type=submit]:hover {
+    background-color: #b5996f;
+    color: white;
+    border-bottom: 1px solid grey;
+}
+.kristin img{
+    width: 500px;
+    margin: 40px;
+}
+.col1{
+    float: left;
+    width: 40%;
+    padding: 30px;
+    height: 300px;
+}
+.col2 img{
+    width: 200px;
+    float: right;
+    margin: 20px 10px 20px 5px;
+    padding-left: 5px;
+}
+.col2{
+    width: 50%;
+    float: left;
+    margin: 10px 30px 20px 50px;
+    padding: 10px 20px;
+    height: 400px;
+}
+.col2 p{
+    margin-top: 120px;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+}
+h3{
+    margin-top: 50px;
+    font-family: "Crimson text";
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+}
+h4.kris{
+    width: 300px;
+    align-items: center;
+    position: absolute;
+    left: 56%;
+}
+h5{
+    text-align: center;
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color:rgba(95, 92, 92, 0.616);
+}
+div.col2 p{
+    font-style: normal;
+    text-align: inherit;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column1{
+    float: left;
+    width: 33.33%;
+    margin-top: 500px;
+}
+.column1 h2 img{
+    width: 300px;
+}
+.column2{
+    float: left;
+    width: 33.33%;
+    margin-top: 500px;
+}
+.column2 h2 img{
+    width: 300px;
+}
+.column3{
+    float: left;
+    width: 33.33%;
+    margin-top: 500px;
+}
+.column3 h2 img{
+    width: 300px;
+}
+p.name{
+    color: black;
+    font-style: normal;
+    font-size: 25px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
