@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson Text: 700,700i,400i">
+    <link rel="stylesheet" href="contact_us.css">
+    <title>Contact Us</title>
+</head>
+<body>
+      <!-- navigations and headline -->
+      <div class="container">
+        <ul class="nav nav-pills-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PORTOFOLIO</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://bellafare.com/weddings">Weddings</a>
+              <a class="dropdown-item" href="https://bellafare.com/events">Parties</a>
+              <a class="dropdown-item" href="https://bellafare.com/styled">Styles</a></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="biodata.html">BIODATA</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://id.pinterest.com/bellafare/_created/" target="_blank"><img src="pinterest.png" class="sosmed"></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/bellafare/" target="_blank"><img src="instagram.png" class="sosmed"></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+
+    <p class="head">GIVE US A SHOUT</p>
+    <p class="text1">bellafare has offices in new york city and charleston, sc and will cater<br>to destination events throughout the country and beyond.</p>
+    <p class="text2">PLEASE COMPLETE THE FORM BELOW</p>
+    <hr>
+    <div class="container">
+      <form action="/action_page.php" method="POST">
+      <div class="row">
+        <div class="col-1">
+            <label for="fname">First Name : </label>
+        </div>
+        <div class="col-2">
+            <input type="text" id="fname" name="firstname">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+            <label for="lname">Last Name : </label>
+        </div>
+        <div class="col-2">
+            <input type="text" id="lname" name="lastname">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <label for="email">Email : </label>
+        </div>
+        <div class="col-2">
+          <input type="email" id="email" name="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <label for="username">Username : </label>
+        </div>
+        <div class="col-2">
+          <input type="text" id="username" name="username">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <label for="password">Password : </label>
+        </div>
+        <div class="col-2">
+          <input type="password" id="password" name="password">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+            <label for="gender">Gender : </label>
+        </div>
+        <div class="col-2">
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <label for="religion">Religion : </label>
+        </div>
+        <div class="col-2">
+          <select id="religion" name="religion" placeholder="select here">
+            <option value="christian">Christian</option>
+            <option value="moeslim">Moeslim</option>
+            <option value="hinduism">Hinduism</option>
+            <option value="buddhism">Buddhism</option>
+            <option value="moeslim">Judaism</option>
+            <option value="etc">Etc</option>
+          </select>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-1">
+          <label for="hobby">Hobby :</label>
+        </div>
+        <div class="col-2">
+          <input type="checkbox" id="hobby" name="hobby" value="reading">
+          <label>Reading</label>
+          <input type="checkbox" id="hobby2" name="hobby2" value="traveling">
+          <label>Traveling</label>
+          <input type="checkbox" id="hobby3" name="hobby3" value="photography">
+          <label>Photography</label>
+          <input type="checkbox" id="hobby4" name="hobby4" value="culinary">
+          <label>Culinary</label>
+          <input type="checkbox" id="hobby5" name="hobby5" value="Other">
+          <label>Other</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <label for="address">Address : </label>
+        </div>   
+        <div class="row-2"> 
+              <textarea id="address" name="address" rows="5" cols="30"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <input type="submit" value="SUBMIT">
+        </div>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
