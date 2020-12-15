@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    background-color: #fafafadc;
+}
+body{
+    font-family: "Crimson Text";
+    width: 100%;
+}
+img.logo{
+    width: 300px;
+    margin: 30px;
+}
+.mainpage{
+    height: 100px;
+    font-family: "Crimson Text";
+    position: absolute;
+    width: 100%;
+    margin-right: 0px;
+    top: 0%;
+    left: 0%;
+    float: right;
+}
+.container{
+    color: black;
+    text-align: center;
+    padding: 2px 10px;
+    margin: 50px;
+    float: right;
+    overflow: hidden;
+}
+.nav{
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.nav a{
+    float: left;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    display: inline;
+}
+.navbar a:hover, .dropdown:hover{
+    background-color: transparent;
+}
+.dropdown-item{
+    display: none;
+    position: absolute;
+    width: 100px;
+    margin-top: 100px;
+    padding: 10px 14px;
+    z-index: 1;
+    float: left;
+    text-align: left;
+
+}
+.dropdown-menu a{
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: right;
+}
+.nav-item div a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.dropdown-menu a:hover{
+    background-color: transparent;
+}
+.dropdown-menu:hover.dropdown-item{
+    display: block;
+}
+.dropdown:hover div{
+    color:#b5996f;
+    visibility: visible;
+}
+.nav a:hover{
+    color: #b5996f;
+}
+a:nth-child(1):hover{
+    transition: all 0.5s;
+}
+a:nth-child(2):hover{
+    transition: all 0.5s;
+}
+a:nth-child(3):hover{
+    transition: all 0.5s;
+}
+a:nth-child(4):hover{
+    transition: all 0.5s;
+}
+a:nth-child(5):hover{
+    transition: all 0.5s;
+}
+img.sosmed{
+    float: left;
+    width: 20px;
+    margin: -10px;
+    margin-top: 13px;
+    margin-left: 25px;
+    opacity: 0.5;
+    position: relative;
+}
+img.sosmed:hover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+div.mainpage:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.mainpage:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.head{
+    font-size: 20px;
+    margin: 120px 30px 20px 30px;
+    color: rgba(61, 59, 59, 0.815);
+}
+.text1{
+    font-style: italic;
+    color: rgba(61, 59, 59, 0.815);
+    margin: 30px;
+    letter-spacing: 1px;
+}
+.text2{
+    font-size: 30px;
+    color: rgba(61, 59, 59, 0.815);
+    margin: 30px;
+    letter-spacing: 1px;
+}
+input[type=text], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 0px 4px;
+}
+label{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+input[type=submit] {
+    font-family: "Crimson Text";
+    font-size: 16px;
+    letter-spacing: 5px;
+    background: #fafafa;
+    color: #b5996f;
+    padding: 10px 35px;
+    margin: 50px;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    border: 2px solid #b5996f;
+    border-radius: 2px;
+    line-height: normal;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+}
+input[type=submit]:hover {
+    background-color: #b5996f;
+    color: white;
+}
+.container{
+    border-radius: 2px;
+    padding: 0px;
+    text-align: left;
+}
+.col-1{
+    float: left;
+    width: 15%;
+    margin: 20px 10px 20px 10px ;
+    text-align: left;
+    padding-left: 40px;
+}
+.col-2{
+    float: left;
+    width: 70%;
+    margin: 20px 10px 20px 5px;
+    padding-left: 5px;
+}
+.row{
+    float: left;
+    width: 1000px;
+    margin-left: 20px;
+}
+input[type=email], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 0px 4px;
+}  
+input[type=password], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 0px 4px;
+}
+input[type=radio], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    border: 1px solid #ccc;
+}
+select[type=text], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 0px 4px;
+}
+input[type=checkbox], select, textarea {
+    color: rgba(61, 59, 59, 0.815);
+    border: 1px solid #ccc;
+}
