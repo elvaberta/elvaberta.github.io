@@ -119,35 +119,10 @@ img.sosmed:hover{
     opacity: 1;
     transition: all 0.5s;
 }
-@keyframes animate{
-    10%, 20%, 30%, 40%, 100%{
-        background-image: url("1.jpeg");
-    }
-    30%{
-        background-image: url("2.jpeg");
-    }
-    35%{
-        background-image: url("3.jpeg");
-    }
-    30%{
-        background-image: url("4.jpeg");
-    }
-    35%{
-        background-image: url("5.jpeg");
-    }
-    30%{
-        background-image: url("6.jpeg");
-    }
-    35%{
-        background-image: url("7.jpeg");
-    }
-    30%{
-        background-image: url("8.jpeg");
-    }
-    35%{
-        background-image: url("9.jpeg");
-    }
-}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
 .home-content{
     color: #1f1d1da4;
     width: 100%;
@@ -159,7 +134,7 @@ img.sosmed:hover{
     margin-top: 630px;
     text-align: justify;
 }
- div.home-content h1{
+div.home-content h1{
     text-align: center;
     font-weight: lighter;
     font-size: 25px;
