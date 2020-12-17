@@ -4,6 +4,10 @@
 body{
     background-color: white;
 }
+body{
+    font-family: "Crimson Text";
+    width: 100%;
+}
 img.logo{
     width: 300px;
     margin: 30px;
@@ -22,15 +26,15 @@ img.logo{
     color: black;
     text-align: center;
     padding: 2px 10px;
-    margin: 20px;
     float: right;
     overflow: hidden;
 }
-.navigation{
+.nav{
     float: right;
     overflow: hidden;
+    margin-right: 10px;
 }
-.navigation a{
+.nav a{
     float: left;
     color: black;
     font-size: 14px;
@@ -43,21 +47,22 @@ img.logo{
 .dropdown{
     float: left;
     overflow: hidden;
+    display: inline;
 }
 .navbar a:hover, .dropdown:hover{
     background-color: transparent;
 }
-.dropdown-content{
+.dropdown-item{
     display: none;
     position: absolute;
-    width: 150px;
-    margin-top: 40px;
+    margin-top: 100px;
+    padding: 10px 14px;
     z-index: 1;
     float: left;
     text-align: left;
 
 }
-.dropdown-content a{
+.dropdown-menu a{
     color: black;
     padding: 10px 14px;
     text-decoration: none;
@@ -65,23 +70,23 @@ img.logo{
     text-align: left;
     float: right;
 }
-.dropdown div a{
+.nav-item div a{
     display: inline;
     text-decoration: none;
     color: black;
     display: inline-block;
 }
-.dropdown-content a:hover{
+.dropdown-menu a:hover{
     background-color: transparent;
 }
-.dropdown:hover .dropdown-content{
+.dropdown-menu:hover.dropdown-item{
     display: block;
 }
 .dropdown:hover div{
     color:#b5996f;
     visibility: visible;
 }
-.navigation a:hover{
+.nav a:hover{
     color: #b5996f;
 }
 a:nth-child(1):hover{
@@ -103,8 +108,7 @@ img.sosmed{
     float: left;
     width: 20px;
     margin: -10px;
-    margin-top: 2px;
-    margin-left: -10px;
+    margin-top: 4px;
     opacity: 0.5;
     position: relative;
 }
