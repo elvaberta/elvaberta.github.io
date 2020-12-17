@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -43,112 +42,87 @@
             <a href="https://www.instagram.com/bellafare/" target="_blank"><img src="instagram.png" class="sosmed"></a>
           </li>
         </ul>
-      </div>
-      </div>
-    </div>
+      </div><br><br>
 
-    <p class="head">GIVE US A SHOUT</p>
-    <p class="text1">bellafare has offices in new york city and charleston, sc and will cater<br>to destination events throughout the country and beyond.</p>
-    <p class="text2">PLEASE COMPLETE THE FORM BELOW</p>
+
+    <p class="text1">GIVE US A SHOUT<br><br>bellafare has offices in new york city and charleston, sc and will cater<br>to destination events throughout the country and beyond.</p>
+    <p class="text2 text-center">PLEASE COMPLETE THE FORM BELOW</p>
     <hr>
     <div class="container">
-      <form action="/action_page.php" method="POST">
-      <div class="row">
-        <div class="col-1">
-            <label for="fname">First Name : </label>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="name">Fist Name:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
         </div>
-        <div class="col-2">
-            <input type="text" id="fname" name="firstname">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="name">Last Name:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-            <label for="lname">Last Name : </label>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="email" name="email">
+          </div>
         </div>
-        <div class="col-2">
-            <input type="text" id="lname" name="lastname">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="password">Username:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="username" name="username">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <label for="email">Email : </label>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="password">Password:</label>
+          <div class="col-sm-10">          
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
         </div>
-        <div class="col-2">
-          <input type="email" id="email" name="email">
+        <div class="form-group">
+          <label class="control-label col-sm-1" for="gender">Gender:</label>
+            <label class="radio-inline">
+              <input type="radio" name="Male"> Male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="Female"> Female
+            </label>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <label for="username">Username : </label>
+        <div class="form-group">
+          <label class="control-label col-sm-1" for="religion">Religion:</label>
+            <select>
+              <option type="select">Christian</option>
+              <option type="select">Moeslim</option>
+              <option type="select">Buddhism</option>
+              <option type="select">Hinduism</option>
+              <option type="select">Judaism</option>
+              <option type="select">Etc</option>
+            </select>
         </div>
-        <div class="col-2">
-          <input type="text" id="username" name="username">
+        <div class="form-group">
+          <label class="control-label col-sm-1" for="hobby">Hobby:</label>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="Male"> Reading
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="Female"> Travelling
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="Male"> Photography
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="Female"> Culinary
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" name="Female"> Others
+            </label>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <label for="password">Password : </label>
+        <div class="form-group">
+          <label class="control-label col-sm-1" for="address">Address:</label>
+          <label class="textarea-inline"></label>
+          <textarea rows="5" id="address" type="textarea"></textarea>
         </div>
-        <div class="col-2">
-          <input type="password" id="password" name="password">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-            <label for="gender">Gender : </label>
-        </div>
-        <div class="col-2">
-            <input type="radio" id="gender" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="gender" name="gender" value="female">
-            <label for="female">Female</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <label for="religion">Religion : </label>
-        </div>
-        <div class="col-2">
-          <select id="religion" name="religion" placeholder="select here">
-            <option value="christian">Christian</option>
-            <option value="moeslim">Moeslim</option>
-            <option value="hinduism">Hinduism</option>
-            <option value="buddhism">Buddhism</option>
-            <option value="moeslim">Judaism</option>
-            <option value="etc">Etc</option>
-          </select>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="col-1">
-          <label for="hobby">Hobby :</label>
-        </div>
-        <div class="col-2">
-          <input type="checkbox" id="hobby" name="hobby" value="reading">
-          <label>Reading</label>
-          <input type="checkbox" id="hobby2" name="hobby2" value="traveling">
-          <label>Traveling</label>
-          <input type="checkbox" id="hobby3" name="hobby3" value="photography">
-          <label>Photography</label>
-          <input type="checkbox" id="hobby4" name="hobby4" value="culinary">
-          <label>Culinary</label>
-          <input type="checkbox" id="hobby5" name="hobby5" value="Other">
-          <label>Other</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <label for="address">Address : </label>
-        </div>   
-        <div class="row-2"> 
-              <textarea id="address" name="address" rows="5" cols="30"></textarea>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-2">
-          <input type="submit" value="SUBMIT">
-        </div>
-      </div>
       </form>
     </div>
   </body>
