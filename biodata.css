@@ -8,11 +8,11 @@ img.logo{
     width: 300px;
     margin: 30px;
 }
-.mainpage{
-    height: 100px;
+.logo{
+    height: 35px;
     font-family: "Crimson Text";
     position: absolute;
-    width: 100%;
+    width: 50%;
     margin-right: 0px;
     top: 0%;
     left: 0%;
