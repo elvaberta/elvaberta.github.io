@@ -20,6 +20,7 @@ img.logo{
 }
 .container{
     color: black;
+    font-family: "Crimson Text";
     text-align: center;
     padding: 2px 10px;
     float: right;
