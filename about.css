@@ -202,7 +202,7 @@ input[type=submit]:hover {
 .row{
     float: left;
     width: 100%;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 h3{
     margin-top: 50px;
@@ -235,28 +235,11 @@ div.col2 p{
     display: table;
     clear: both;
 }
-.column1{
-    float: left;
+.col-sm-4{
     width: 33.33%;
     margin-top: 500px;
 }
-.column1 h2 img{
-    width: 300px;
-}
-.column2{
-    float: left;
-    width: 33.33%;
-    margin-top: 500px;
-}
-.column2 h2 img{
-    width: 300px;
-}
-.column3{
-    float: left;
-    width: 33.33%;
-    margin-top: 500px;
-}
-.column3 h2 img{
+.col-sm-4 img{
     width: 300px;
 }
 p.name{
