@@ -51,7 +51,18 @@
           <hr>
         </div>
   </div>  
-
+  <div class="container">
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="biodata.jpeg" alt="biodata image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Derezky Elvaberta Djami</h4>
+        <p class="card-text">click here to show the biodata</p>
+        <a href="#" class="btn btn-primary" onclick="myFunction()">See Biodata</a>
+      </div>
+    </div>
+    <br>
+  
+  <div id="myDIV">
     <div class="container text-center"><br>
       <div class="row text-left">
         <div class="col-2">
@@ -68,7 +79,7 @@
           <p>Instagram</p>
           <p>Email</p>  
         </div>
-        <div class="col-5">
+        <div class="col-6">
           <p> : Derezky Elvaberta Djami</p>
           <p> : Berta, Derezky, Eta</p>
           <p> : May 23rd 2001</p>
@@ -85,6 +96,16 @@
           <img src="biodata.jpeg" class="img-responsive" style="width:120%" alt="Image">  
         </div>
       </div><br>
-
+    </div>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
 </body>
 </html>
