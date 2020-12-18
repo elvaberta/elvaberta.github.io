@@ -252,3 +252,24 @@ p.name{
     display: table;
     clear: both;
 }
+button[type=submit] {
+    font-family: "Crimson Text";
+    font-size: 16px;
+    letter-spacing: 5px;
+    background: #fafafa;
+    color: #b5996f;
+    padding: 10px 35px;
+    margin: 50px;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    border: 2px solid #b5996f;
+    border-radius: 2px;
+    line-height: normal;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+}
+button[type=submit]:hover {
+    background-color: #b5996f;
+    color: white;
+}
